@@ -1,4 +1,4 @@
-# Privacy Policy
+# Privacy Policy for ClocksOn
 
 Last updated: December 23, 2025
 
