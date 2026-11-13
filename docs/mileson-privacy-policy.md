@@ -1,6 +1,6 @@
 # Privacy Policy for MilesOn
 
-**Last Updated:** July 2026
+**Last Updated:** November 2026
 
 MilesOn ("we", "us", or "our") is committed to protecting your privacy. This Privacy
 Policy explains how we handle information when you use the MilesOn application.
@@ -15,11 +15,14 @@ None. MilesOn has no sign-in and no forms.
 
 ### 1.2 Location
 MilesOn uses your device's location to estimate the distance you drive for each trip
-meter. On Android, when your phone's Bluetooth connects to your car, MilesOn
-automatically starts recording GPS-estimated distance in the background and stops when
-Bluetooth disconnects, so meters keep counting driven distance across every trip
-without you opening the app. Location is used on-device to calculate distance; we do
-not store or transmit your location to our own servers.
+meter. When your phone connects to the car you have chosen, MilesOn automatically starts
+recording GPS-estimated distance and stops when the connection ends, so meters keep
+counting driven distance across every trip without you opening the app. On Android the
+connection is the car's Bluetooth. On iPhone it is the car's Bluetooth or CarPlay. To keep
+recording while the app is closed, MilesOn asks for background ("Always") location access;
+on iPhone, iOS may also wake the app in the background after a significant move so that
+recording can begin. Location is used on-device to calculate distance; we do not store or
+transmit your location to our own servers.
 
 ### 1.3 Trip Meter Data
 Trip meters you create (names, reset history) are stored locally on your device. This
@@ -32,13 +35,26 @@ vehicle-specific diagnostic data — odometer reading, speed, and (on supported 
 battery state of charge and charging status — to provide a more accurate,
 tire-size-independent distance source and to detect charging sessions. This data is
 processed on-device only, used to calculate distance and charging intervals for your
-trip meters, and is not stored on or transmitted to our servers.
+trip meters, and is not stored on or transmitted to our servers. On iPhone, iOS asks for
+your permission before MilesOn can use Bluetooth, both to find your OBD2 adapter and to
+recognise your car.
 
 ### 1.5 Diagnostics and Usage Data
 On Android, MilesOn uses Google Firebase Crashlytics and Firebase Analytics to collect
 anonymous crash reports and aggregate usage data (for example, app version, device
 model, operating system version, and app-open events). This helps us diagnose
 stability problems and improve the app. It is not used to identify you personally.
+
+The iPhone app contains no analytics, advertising, or crash-reporting software, and it
+sends no data to us or to any third party. If you have chosen to share analytics with app
+developers in your iOS settings, Apple may give us aggregated crash and usage statistics
+through App Store Connect; we do not receive anything that identifies you.
+
+### 1.6 Purchases
+MilesOn offers one optional one-time purchase, Precision. On iPhone the purchase is
+processed by Apple and on Android by Google Play. We never see or store your payment
+details. The app only asks the store whether the account on your device owns the
+purchase, so that it can unlock the feature and restore it after a reinstall.
 
 ## 2. How We Use Your Information
 
@@ -68,10 +84,12 @@ with any other third parties.
 
 ## 5. Third-Party Services
 
-MilesOn uses Google Firebase (Crashlytics and Analytics) for crash reporting and
-anonymous usage analytics, and on-device location services to estimate driven
-distance. These services have their own privacy policies governing how they handle
-data.
+On Android, MilesOn uses Google Firebase (Crashlytics and Analytics) for crash reporting
+and anonymous usage analytics. On all platforms it uses on-device location services to
+estimate driven distance, the Apple App Store or Google Play to process the optional
+Precision purchase, and, on iPhone, Apple's CarPlay to show your meters on the car
+screen. These services have their own privacy policies governing how they handle data.
+The iPhone app includes no other third-party software that collects data.
 
 ## 6. Children's Privacy
 
